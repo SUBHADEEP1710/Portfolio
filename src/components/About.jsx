@@ -1,4 +1,4 @@
-import aboutImg from "../assets/about4.jpeg"
+import aboutImg from "../assets/about10.png"
 import { ABOUT_TEXT } from "../constants"
 import { motion } from "framer-motion"
 
@@ -36,7 +36,7 @@ const About = () => {
     <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
             <motion.div variants={container(0)} initial="hidden1" whileInView="visible1"  className="flex items-center justify-center">
-                <img className="rounded rounded-3xl border-1 bg-black opacity-90 pointer-events-none" src={aboutImg} width={500} height={500}alt="about" />
+                <img className="rounded rounded-3xl border-1 pointer-events-none" src={aboutImg} width={500} height={500}alt="about" />
             </motion.div>
             
         </div>

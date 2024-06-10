@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/sub_profile_pic (2).jpg";
+import profilePic from "../assets/propic3.jpg";
 import { motion, AnimatePresence } from "framer-motion";
 
 const roles = ["Full Stack Developer", "Software Engineer", "ML enthusiast", "Frontend Developer", "Programmer"];
@@ -76,7 +76,7 @@ const Hero = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <motion.div initial={{ x: 100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.2 }} className="flex items-center justify-center">
-            <img className="rounded-3xl border-1 bg-black opacity-90 pointer-events-none" src={profilePic} alt="Subhadeep Chakraborty"></img>
+            <img className="rounded-3xl border-1 bg-black opacity-90 pointer-events-none" src={profilePic} width={550} height={550} alt="Subhadeep Chakraborty"></img>
           </motion.div>
         </div>
       </div>
