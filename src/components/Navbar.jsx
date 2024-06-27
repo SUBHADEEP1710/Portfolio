@@ -2,7 +2,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { motion } from "framer-motion";
-import resume from "../assets/subhadeep_resume_2 (10).pdf"; // Adjust the path according to your project structure
+import resume from "../assets/final_resume.pdf"; // Adjust the path according to your project structure
 
 const container = (delay) => ({
   hidden1: { x: -100, opacity: 0 },

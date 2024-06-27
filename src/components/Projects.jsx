@@ -31,7 +31,7 @@ const Projects = () => {
         whileInView="visible3"
         className="my-20 text-center text-4xl  text-purple-400"
       >
-        Projects
+        WebDev Projects
       </motion.h2>
       <div>
         {PROJECTS.map((project, index) => (

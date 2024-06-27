@@ -76,7 +76,7 @@ export const EDUCATION = [
     image: edu1,
     description:
       "Bachelor of Technology in Computer Science Engineering(AIML)",
-    technologies: ["CGPA - 9.27"],
+    technologies: ["CGPA - 9.2"],
   },
   {
     title: "Vivekananda Mission School, Joka",
