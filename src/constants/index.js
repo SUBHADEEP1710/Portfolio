@@ -2,8 +2,10 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 import intern1 from "../assets/projects/intern1.jpg"
 import intern2 from "../assets/projects/intern2.jpg"
+import intern3 from "../assets/projects/intern3.png"
 import edu1 from "../assets/projects/edu-1.png"
 import edu2 from "../assets/projects/edu-2.png"
 
@@ -13,15 +15,30 @@ export const ABOUT_TEXT = `Fluent in English, Hindi, and Bengali, I thrive in mu
 
 export const EXPERIENCES = [
   {
+    year: "[July - August] 2024",
+    image: intern3,
+    role: "AI and Cloud Intern",
+    company: "Edunet Foundation",
+    description: `➔ Virtual Sessions: Engaged in 13 virtual sessions on Cloud Computing, AI, IBM Cloud (Watson Studio), Data Analytics,
+                      Model Building, Auto AI, NLP/GenAI/LLM models, and ChatBot development.
+                  ➔ EDA and Visualization: EDAand visualization on the FIFA 2019 dataset with 18,000+ data points using IBM Cloud.
+                  ➔ AI Certifications: Acquired certificates for completing two advanced AI courses on the IBM SkillsBuild platform.
+                  ➔ Model Deployment: Used AutoAI in IBM Cloud to build a Company Bankruptcy Prediction model having an accuracy of 97.3%.
+                  ➔ ChatBot Development: Developed a chatbot with WatsonX Assistant, reducing code by 200-300 lines compared to traditional
+                      Python methods.`,
+    technologies: ["IBM Cloud", "Watson Studio", "Watson ML","Auto AI"],
+  },
+  {
     year: "[August - September] 2023",
     image: intern2,
     role: "Machine Learning Intern",
     company: "Codsoft",
-    description: `Successfully deployed Logistic Regression model for credit card fraud detection, achieving an impressive accuracy of
-                  99% on a Kaggle dataset comprising 1.2M+ datapoints.
-                  Implemented a Multinomial NB model for SMS spam detection, attaining a remarkable 96% accuracy on a dataset
-                  containing over 5000 datapoints.
-                  Utilized TF-IDF vectorization and multinomial classification techniques to accurately classify movie genres within a Kaggle dataset.`,
+    description: `➔ Credit Card Fraud Detection: Realized 99% accuracy on 1.2M+ Kaggle data points using Logistic Regression, demonstrating
+                      robustness in large-scale fraud detection.
+                  ➔ SMS Spam Detection: Secured 98% accuracy on UCI's SMS dataset with TF-IDF and Multinomial Naive Bayes, ensuring effective
+                      spam filtering in communication channels.
+                  ➔ IMDb Movie Genre Classifier: Executed a genre classifier with 58% validation accuracy and F1 score of 0.54 using Logistic
+                      Regression and TF-IDF, enhancing content-based recommendation systems for movies.`,
     technologies: ["ML Models", "Pandas", "Tf-Idf", "Numpy"],
   },
   {
@@ -29,18 +46,19 @@ export const EXPERIENCES = [
     image: intern1,
     role: "Web Development Intern",
     company: "Oasis Infobyte",
-    description: `Worked on 3 assigned projects using HTML, CSS and JS. Designed and coded a Landing page for a VPN company, a Personal Portfolio template and a Temperature Converter website which converts Celcius to Fahrenheit and vice versa.`,
+    description: `Developed 3 web projects using HTML, CSS, and JavaScript: a VPN landing page , a Portfolio template and a Temperature converter
+(allowing conversions in Kelvin, Celcius and Fahrenheit).`,
     technologies: ["Html", "Css", "JavaScript","GitHub"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "Get Hired",
+    title: "Centralized Job Aggregator Platform",
     image: project1,
     link:"https://subhadeep1710.github.io/Get-Hired/",
     description:
-      "API based one-stop app to access all job postings on the largest professional networking sites with only 1.7s latency",
+      "API-based platform to aggregate job postings on 10+ major professional networking sites .",
     technologies: ["HTML", "CSS", "JavaScript", "RapidAPI", "GitHub"],
   },
   {
@@ -67,6 +85,14 @@ export const PROJECTS = [
       "An online educational website which provides courses on various topics for students from top instructors.",
     technologies: ["HTML", "CSS", "JavaScript", "GitHub"],
   },
+  {
+    title: "Online Hotel Booking System",
+    image: project5,
+    link:"https://github.com/SUBHADEEP1710/Hotel-Booking-System.git",
+    description:
+      "Worked in a two membered team to develop an online hotel booking system as part of DBMS curriculum.",
+    technologies: ["HTML", "CSS", "JavaScript", "Php","SQL"],
+  },
 ];
 
 
@@ -76,7 +102,7 @@ export const PROJECTS2 = [
     
     link:"https://colab.research.google.com/drive/1PPrrO4XoMvPF_3RchZcNOAz0aOyuVpzD",
     description:
-      "Deployed an SMS spam detection model achieving 98% accuracy using the UCI dataset with 5000+ data points, employing text preprocessing, TF-IDF Vectorization, and Multinomial Naive Bayes with Scikit-learn",
+      "Secured 98% accuracy on UCI's SMS dataset with TF-IDF and Multinomial Naive Bayes, ensuring effective spam filtering in communication channels.",
     technologies: ["NLTK", "Regular Expressions", "TfidfVectorizer", "GridSearchCV", "Scikit-Learn Pipeline"],
   },
   {
@@ -84,7 +110,7 @@ export const PROJECTS2 = [
     
     link:"https://colab.research.google.com/drive/1i1bPQYLfvWLpbqdPenATGzJh3PmvPOHo",
     description:
-      "Engineered a Logistic Regression model for Credit Card Fraud Detection with 99% accuracy on Kaggle's 1.2M+ data points, utilizing preprocessing, encoding, and evaluation through a confusion matrix and ROC curve with Pandas, Seaborn, Scikit-learn, and Matplotlib.",
+      "Realized 99% accuracy on 1.2M+ Kaggle data points using Logistic Regression, demonstrating robustness in large-scale fraud detection.",
     technologies: ["NumPy", "Scikit-Learn", "Pandas","Confusion Matrix", "Seaborn and Matplotlib"],
   },
   {
@@ -92,7 +118,7 @@ export const PROJECTS2 = [
     
     link:"https://colab.research.google.com/drive/1kkoOxb0pz4lHcGR8Rhi9NlLAaelQKX-P",
     description:
-      "Formulated an IMDb Movie Genre Classifier using Logistic Regression and TF-IDF vectorization, reaching a validation accuracy of 58% and an F1 score of 0.54, leveraging Pandas, Seaborn, Scikit-learn, and WordCloud for preprocessing, analysis, and visualization.",
+      "Executed a genre classifier with 58% validation accuracy and F1 score of 0.54 using Logistic Regression and TF-IDF, enhancing content-based recommendation systems for movies.",
     technologies: ["Pandas", "Scikit-Learn", "WordCloud","Logistic Regression", "Seaborn and Matplotlib"],
   },
   {
@@ -121,7 +147,7 @@ export const EDUCATION = [
     image: edu2,
     description:
       "ISC(12th Boards) in Computer Science",
-    technologies: ["Percentage - 88 %"],
+    technologies: ["Percentage - 87.4 %"],
   },
   {
     title: "Vivekananda Mission School, Joka",
@@ -129,7 +155,7 @@ export const EDUCATION = [
     image: edu2,
     description:
       "ICSE(10th Boards) in Computer Science",
-    technologies: ["Percentage - 96.4 %"],
+    technologies: ["Percentage - 95.9 %"],
   },
  
 ];
