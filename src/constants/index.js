@@ -6,6 +6,10 @@ import project5 from "../assets/projects/project-5.png";
 import intern1 from "../assets/projects/intern1.jpg"
 import intern2 from "../assets/projects/intern2.jpg"
 import intern3 from "../assets/projects/intern3.png"
+import cert1 from "../assets/projects/cert1.jpg"
+import cert2 from "../assets/projects/cert2.jpg"
+import cert3 from "../assets/projects/cert3.jpg"
+import cert4 from "../assets/projects/cert4.jpg"
 import edu1 from "../assets/projects/edu-1.png"
 import edu2 from "../assets/projects/edu-2.png"
 
@@ -160,8 +164,40 @@ export const EDUCATION = [
  
 ];
 
+export const CERTIFICATIONS = [
+  {
+    title: "Oracle Cloud Infrastructure 2024 Generative AI Professional Certification",
+    year: ["3rd July, 2024"],
+    image: cert1,
+    description:
+      "The Oracle Cloud Infrastructure 2024 Generative AI Professional certification equips software developers and AI/ML engineers with skills in Large Language Models (LLM) and OCI Generative AI services. It covers concepts like RAG and LangChain for building, evaluating, and deploying LLM applications, requiring foundational knowledge in machine learning, deep learning, Python, and OCI."
+  },
+  {
+    title: "Core Java (Specialization)",
+    year: ["16th July, 2024"],
+    image: cert2,
+    description:
+      "The Core Java Specialization is an online program consisting of four courses: Introduction to Java, Object-Oriented Programming, Hierarchies in Java, and the Java Class Library. The specialization focuses on mastering Java programming and core libraries. Learners develop Java-based applications through hands-on exercises, progressing from beginner to advanced concepts.",    
+  },
+  {
+    title: "Google Data Analytics (Specialization)",
+    year: ["10th August, 2024"],
+    image: cert3,
+    description:
+      "The Google Data Analytics Professional Certificate is an eight-course program designed to prepare learners for entry-level roles in data analytics. The course covers key skills like data preparation, processing, analysis, and visualization using tools like spreadsheets, SQL, Tableau, and R. Through hands-on projects, learners gain practical experience in making data-driven decisions.",    
+  },
+  {
+    title: "AWS Cloud Practitioner Essentials",
+    year: ["15th January, 2024"],
+    image: cert4,
+    description:
+      "The AWS Cloud Practitioner Essentials course is an online, non-credit program authorized by Amazon Web Services. This course provides a foundational understanding of AWS cloud services, security, architecture, and pricing, preparing learners for entry-level cloud computing roles.",    
+  },
+ 
+];
+
 export const CONTACT = {
   address: "D-3, Diamond Park, Joka, Kolkata-700104",
-  phoneNo: "+91 9163184172",
+  phoneNo: "+91-9163184172",
   email: "subhadeep700104@gmail.com",
 };

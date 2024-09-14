@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Education from "./components/Education";
+import Certifications from "./components/Certifications";
 import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
@@ -20,7 +21,8 @@ const App = () => {
         <Navbar/>
         <Hero/>
         <About/>
-        <Education/>
+        <Certifications/>
+        <Education/>        
         <Technologies/>
         <Experience/>
         <Projects/>
